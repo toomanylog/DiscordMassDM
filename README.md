@@ -20,7 +20,7 @@ Ce script permet d'envoyer des messages automatisés à tous vos amis Discord, e
 3. Exécutez le script : `node index.js`
 4. Suivez les instructions du menu principal pour envoyer des messages, gérer la liste des ignorés et modifier le message à envoyer.
 
-Si vous rencontrez des problèmes d'affichage de caractères spéciaux dans la console, essayez de changer l'encodage de la console en UTF-8.
+5. Si vous rencontrez des problèmes d'affichage de caractères spéciaux dans la console, essayez de changer l'encodage de la console en UTF-8.
 	* Dans Windows :
 		1. Ouvrez l'invite de commandes.
 		2. Tapez `chcp 65001` et appuyez sur Entrée.
