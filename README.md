@@ -17,7 +17,10 @@ Ce script permet d'envoyer des messages automatisés à tous vos amis Discord, e
 
 1. Installez les dépendances : `npm install discord.js-selfbot-v13 chalk readline-sync clear`
 2. Remplacez `'VOTRE_TOKEN_ICI'` par le token de votre compte Discord.
-3. Si vous rencontrez des problèmes d'affichage de caractères spéciaux dans la console, essayez de changer l'encodage de la console en UTF-8.
+3. Exécutez le script : `node index.js`
+4. Suivez les instructions du menu principal pour envoyer des messages, gérer la liste des ignorés et modifier le message à envoyer.
+
+Si vous rencontrez des problèmes d'affichage de caractères spéciaux dans la console, essayez de changer l'encodage de la console en UTF-8.
 	* Dans Windows :
 		1. Ouvrez l'invite de commandes.
 		2. Tapez `chcp 65001` et appuyez sur Entrée.
@@ -26,9 +29,6 @@ Ce script permet d'envoyer des messages automatisés à tous vos amis Discord, e
 		1. Ouvrez le terminal.
 		2. Tapez `export LC_ALL=en_US.UTF-8` et appuyez sur Entrée.
 		3. Exécutez votre script.
-4. Exécutez le script : `node index.js`
-5. Suivez les instructions du menu principal pour envoyer des messages, gérer la liste des ignorés et modifier le message à envoyer.
-
 ## Remarques
 
 - Ce script est destiné à un usage personnel et éducatif. L'utilisation abusive de cette application peut entraîner la suspension de votre compte Discord.
